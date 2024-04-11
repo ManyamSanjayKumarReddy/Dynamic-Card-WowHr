@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+}
+.certificate{
+    height: 100vh;
+    width: 100%;
+    background: url(images/bg.png);
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.ribbon{
+    position: relative;
+    top: 50px;
+    left: 700px;
+    height: 80px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 72%;
+    left: 60%;
+}
+.links a{
+    color: white;
+    font-size: 35px;
+}
+.socialmedia{
+    display: flex;
+    height: fit-content;
+    gap: 10px;
+}
+.socialmedia h1{
+    color: white;
+    margin: 0;
+}
+.socialmedia .icons{
+    display: flex;
+    background: white;
+    gap:5px;
+    height: 48px;
+    padding: 0px 5px;
+}
+.namecontainer{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    top: 0%;
+    left: 40%;
+}
+.namecontainer .name{
+    height: 50px;
+    width: 500px;
+    border: none;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+}
+.linkedin{
+    height: 50px;
+    width: 500px;
+    border: none;
+    font-size: 20px;
+}
+.dpcontainer{
+    position: relative;
+    height: 250px;
+    width: 200px;
+    top: -200px;
+    left: 10%;
+    border-radius: 15px;
+
+}
+.dpcontainer img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+

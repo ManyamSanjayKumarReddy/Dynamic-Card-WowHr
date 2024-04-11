@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic ID Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+    <script src="data/data.js"></script>
+</head>
+<body>
+    <div class="certificate">
+        <img class="ribbon" src="Images/ribbon.png" alt="">
+        <div class="links">
+            <a href="www.wowhr.in">www.wowhr.in</a>
+            <div class="socialmedia">
+                <div class="icons">
+                    <i class="fa-brands fa-square-facebook" style='font-size:45px;color:#1877f2'></i>
+                    <i class="fa-brands fa-square-twitter" style='font-size:45px;color:#6eadff'></i>
+                    <i class="fa-brands fa-square-instagram" style='font-size:45px;color:rgb(255, 0, 200)'></i>
+                    <i class="fa-brands fa-linkedin" style='font-size:45px;color:#1877f2'></i>
+                    <i class="fa-brands fa-square-youtube" style='font-size:45px;color:red'></i>
+                </div>
+                <h1>wowhr</h1>
+            </div>
+        </div>
+        <div class="namecontainer">
+            <input onclick="populate()" type="text" class="name" id="name">
+            </input>
+            <div style="display:flex;gap:10px">
+                <i class="fa-brands fa-linkedin-in" style='font-size:35px;color:white;background: #1877f2;padding: 10px 12px; border-radius: 50px;width: fit-content;'></i>
+                <input type="text" class="linkedin" id="linkedin" style="font-size: 20px;">
+             
+
+            </div>
+        </div>
+        <div class="dpcontainer">
+            <img src="Images/" alt="" id="dp">
+            <input type="text" class="designation" id="designation" placeholder="Designation" style="font-size: 30px; border: none;">
+            
+        </div>
+    </div>
+</body>
+</html>
